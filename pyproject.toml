@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asterisk"
+version = "0.1.0.dev0"
+description = "Decision analysis over possible world states."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Mindey"}]
+keywords = ["decision-analysis", "risk", "planning", "multi-objective", "agents"]
+
+[tool.setuptools]
+packages = ["asterisk"]
